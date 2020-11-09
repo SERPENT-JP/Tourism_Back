@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tourism | {% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    {% include "base/header.html" %}
+    <div style="min-height: 80vh;">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    {% include "base/footer.html" %}
+</body>
+
+</html>
